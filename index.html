@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Współbieżność w Java</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="This is meta description">
+  
+  <meta name="author" content="Themefisher">
+  <meta name="generator" content="Hugo 0.72.0" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://examplesite.com/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://examplesite.com/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://examplesite.com/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://examplesite.com/plugins/magnific-popup/magnific-popup.css ">
+  
+
+  
+  <link id="snipcart-theme" type="text/css" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://examplesite.com/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://examplesite.com/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://examplesite.com/images/favicon.png " type="image/x-icon">
+
+</head><body>
+<div class="preloader">
+  
+</div>
+<div class="main-navigation fixed-top site-header" id="mainmenu-area">
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container align-items-center">
+      <a class="navbar-brand" href="https://examplesite.com">
+        
+        <h2 class="mb-0 text-color">Współbieżność w Java</h2>
+        
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmain"
+        aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="ti-menu-alt"></span>
+      </button>
+
+      
+      <div class="collapse navbar-collapse text-center text-lg-left" id="navbarmain">
+        
+        <ul class="navbar-nav ml-auto">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link smoth-scroll" href="#book">About</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link smoth-scroll" href="#chapter">Chapter</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link smoth-scroll" href="#review">Reviews</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link smoth-scroll" href="#author">Author</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link smoth-scroll" href="#blog">Blog</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link smoth-scroll" href="#contact">Contact</a>
+          </li>
+          
+
+          
+
+        
+        <!-- nav btn -->
+          <button class="snipcart-add-item btn btn-border-tp btn-small ml-3" data-item-id="1"
+          data-item-name="Współbierzność w Java z wykorzystaniem &ldquo;concurrency primitives&rdquo;" data-item-image="https://examplesite.com/images/about/training.png" data-item-price="14.99" data-item-url="/">
+          Purchase now
+        </button>
+        
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+
+
+<section class="banner-main py-7" id="banner">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-lg-7 col-md-8">
+        <div class="main-banner">
+          <span class="text-color font-weight-bold">Jarosław Pałka</span>
+          <h1 class="mb-3 mt-2">Współbierzność w Java z wykorzystaniem &ldquo;concurrency primitives&rdquo;</h1>
+
+          <div class="mb-4">
+            <h4>Price :- <span class="text-color">$14.99</span></h4>
+          </div>
+          <p class="mb-4">Jesteś programistą, a wątki i współbieżność budzą w Tobie a strach? Podczas tego szkolenia odpowiem na to pytanie. Poznasz bliżej &ldquo;concurrency primitives&rdquo; dostępne w Java SDK, czyli <em>pakiet java.util.concurrent</em>. Nauczysz się jak z podstawowych elementówm, takich jak: kolejki, blokady, czy bariery budować czytelne rozwiązania, jak analizować ich wydajność i jak je testować.</p>
+          <button class="snipcart-add-item btn btn-main mt-2" data-item-id="1"
+          data-item-name="Współbierzność w Java z wykorzystaniem &ldquo;concurrency primitives&rdquo;" data-item-image="https://examplesite.com/images/about/training.png" data-item-price="14.99" data-item-url="/">
+          Purchase now <i class="ti-angle-right ml-3"></i>
+        </button>
+        </div>
+      </div>
+
+      
+      <div class="col-lg-5 d-none d-lg-block">
+        <div class="banner-img pt-5">
+          <img src="/images/about/training.png" alt="Współbierzność w Java z wykorzystaniem &ldquo;concurrency primitives&rdquo;" class="img-fluid w-100">
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="section" id="book">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="book-preview">
+          <img src="/images/about/kindle.png" class="background-device img-fluid" alt="device">
+          <div class="book-pages">
+            
+            <div class="item">
+              <img src="/images/about/book_page.png" alt="page-preview" class="img-fluid">
+              <div class="overlay">
+                <a href="/images/about/book_page.png" class="popup-gallery img-fluid" data-title="Preview"><i
+                    class="ti-fullscreen"></i></a>
+              </div>
+            </div>
+            
+            <div class="item">
+              <img src="/images/about/book_page2.png" alt="page-preview" class="img-fluid">
+              <div class="overlay">
+                <a href="/images/about/book_page2.png" class="popup-gallery img-fluid" data-title="Preview"><i
+                    class="ti-fullscreen"></i></a>
+              </div>
+            </div>
+            
+            <div class="item">
+              <img src="/images/about/book_page.png" alt="page-preview" class="img-fluid">
+              <div class="overlay">
+                <a href="/images/about/book_page.png" class="popup-gallery img-fluid" data-title="Preview"><i
+                    class="ti-fullscreen"></i></a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="section-heading book-info mt-5 mt-lg-0">
+          <h2 class="text-lg mb-4">Współbieżność to nasza programistyczna codzienność. Czas ją ujarzmić</h2>
+          Gdy pojawia się potrzeba wykorzystania mocy wielu procesorów, sięgamy po rozwiązania operujące na wyższym poziomie abstrakcji, czyż nie? Sięgamy po Akka, RxJava, Reactor. Czy tak musi być? Czy Java nie dostarcza mechanizmów pracy z wątkami i tworzenia wydajnego i czytelnego kodu współbieżnego? Podczas tego szkolenia odpowiem na to pytanie.
+
+          <ul class="list-unstyled mt-4 mb-5">
+            
+            <li><i class="ti-check mr-3"></i> Wprowadzenie do współbieżności</li>
+            
+            <li><i class="ti-check mr-3"></i> Java Memory Model</li>
+            
+            <li><i class="ti-check mr-3"></i> Kolejki, bariery, wątki, mechanizmy synchronizacji</li>
+            
+            <li><i class="ti-check mr-3"></i> Testowanie i poprawność naszego kodu</li>
+            
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="pt-4 section-bottom" id="service">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="service-block mb-4 mb-lg-0">
+          <i class="ti-microphone text-danger"></i>
+          <h4 class="mb-3 mt-4">Webinary</h4>
+          <p class="mb-0">Must explain to you how this denouncing praisig pain was give you explain to you how.</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="service-block mb-4 mb-lg-0">
+          <i class="ti-rocket text-danger"></i>
+          <h4 class="mb-3 mt-4">Materiały szkoleniowe</h4>
+          <p class="mb-0">Must explain to you how this denouncing praisig pain was give you explain to you how.</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="service-block mb-4 mb-lg-0">
+          <i class="ti-email text-danger"></i>
+          <h4 class="mb-3 mt-4">Prace z kodem</h4>
+          <p class="mb-0">Must explain to you how this denouncing praisig pain was give you explain to you how.</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="section bg-grey" id="quote">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="text-center">
+          <blockquote class="blockquote">
+            <h2 class="text-lg">"It&rsquo;s simply the best guide to making money online ever released which only a fool would ignore."</h2>
+            
+            <footer class="blockquote-footer h5 text-color mt-4">John Smith</footer>
+            
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="section chapter" id="chapter">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="section-heading">
+          <h2 class="text-lg">Tematy</h2>
+          <p>Libero atque veniam molestiae ipsa aliquid quam facilis dolore.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      
+      <div class="col-sm-6">
+        <div class="chapter-item">
+          <h4>Czym jest współbieżność?</h4>
+          <p>Budowa współczesnych proceserów, modele spójności i granice współbieżności</p>
+        </div>
+      </div>
+      
+      <div class="col-sm-6">
+        <div class="chapter-item">
+          <h4>Zamki do drzwi i broń atomowa</h4>
+          <p>Java Memory Model, mechanizmy synchronizacji, zmienne atomowe i lock free programming</p>
+        </div>
+      </div>
+      
+      <div class="col-sm-6">
+        <div class="chapter-item">
+          <h4>Kolejki rządzą światem</h4>
+          <p>Kolejki w Java, bounded vs unbounded, blocking vs nonblocking. Poznajemy JCStress</p>
+        </div>
+      </div>
+      
+      <div class="col-sm-6">
+        <div class="chapter-item">
+          <h4>Bariery, lasery i inne bajery</h4>
+          <p>CountDownLatch, CyclicBarier, Semaphor i Phaser</p>
+        </div>
+      </div>
+      
+      <div class="col-sm-6">
+        <div class="chapter-item">
+          <h4>Pracownicy biurowi i czarna materia</h4>
+          <p>Pule wątków, ForkJoin, ManagedBlock i CountedCompleter</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="section-bottom testimonial" id="review">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-12">
+        <div class="section-heading text-center">
+          <h2 class="mb-3 text-lg">What people are saying</h2>
+          <p>Amazing reviews illo tenetur laboriosam excepturi velit in, temporibus ab rem dicta sint obcaecati!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row align-items-center">
+      <div class="col-lg-12 col-sm-12 col-md-12 testimonial-wrap">
+        
+        <div class="test-item">
+          <div class="testimonial-item-content">
+            <div class="test-author-thumb mb-4">
+              <img src="/images/client/test-1.jpg" alt="Testimonial author" class="img-fluid">
+              <div class="test-author-info mt-4">
+                <ul class="rating list-inline mb-0 five">
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                </ul>
+                <h4 class="mb-0 mt-2">Barrow Hasi</h4>
+                <p>Sunrise ten</p>
+              </div>
+            </div>
+            <p class="mb-0">Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam.</p>
+          </div>
+        </div>
+        
+        <div class="test-item">
+          <div class="testimonial-item-content">
+            <div class="test-author-thumb mb-4">
+              <img src="/images/client/test-2.jpg" alt="Testimonial author" class="img-fluid">
+              <div class="test-author-info mt-4">
+                <ul class="rating list-inline mb-0 four">
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                </ul>
+                <h4 class="mb-0 mt-2">Nilam Arthur</h4>
+                <p>Sunrise ten</p>
+              </div>
+            </div>
+            <p class="mb-0">Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam.</p>
+          </div>
+        </div>
+        
+        <div class="test-item">
+          <div class="testimonial-item-content">
+            <div class="test-author-thumb mb-4">
+              <img src="/images/client/test-1.jpg" alt="Testimonial author" class="img-fluid">
+              <div class="test-author-info mt-4">
+                <ul class="rating list-inline mb-0 five">
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                </ul>
+                <h4 class="mb-0 mt-2">Barrow Hasi</h4>
+                <p>Sunrise ten</p>
+              </div>
+            </div>
+            <p class="mb-0">Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam.</p>
+          </div>
+        </div>
+        
+        <div class="test-item">
+          <div class="testimonial-item-content">
+            <div class="test-author-thumb mb-4">
+              <img src="/images/client/test-2.jpg" alt="Testimonial author" class="img-fluid">
+              <div class="test-author-info mt-4">
+                <ul class="rating list-inline mb-0 four">
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                </ul>
+                <h4 class="mb-0 mt-2">Nilam Arthur</h4>
+                <p>Sunrise ten</p>
+              </div>
+            </div>
+            <p class="mb-0">Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam.</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="feature-home section" id="device">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-md-6">
+        <h2 class="mb-4">Dla kogo to szkolenie?</h2>
+        <p>Szkolenie przeznaczone jest dla osób, które mają już doświadczenie z Java 8 (choć samo szkolenie będzie wykorzystać Java 11). Znajomość tematów wątków i współbieżności nie jest wymagana.</p>
+
+        
+        <div class="feature-item d-flex mt-5 mb-3">
+          
+          <div class="icon-block">
+            <i class="ti-bar-chart"></i>
+          </div>
+          
+          <div class="content">
+            <h5>Spotykamy się raz w tygodniu</h5>
+            <p>Sed laborum omnis earum facere culpa optio natus quaerat minus.</p>
+          </div>
+        </div>
+        
+        <div class="feature-item d-flex mt-5 mb-3">
+          
+          <div class="icon-block">
+            <i class="ti-write"></i>
+          </div>
+          
+          <div class="content">
+            <h5>Zadanie domowe</h5>
+            <p>Sed laborum omnis earum facere culpa optio natus quaerat minus.</p>
+          </div>
+        </div>
+        
+        <div class="feature-item d-flex mt-5 mb-3">
+          
+          <div class="icon-block">
+            <i class="ti-write"></i>
+          </div>
+          
+          <div class="content">
+            <h5>Dostęp do trenera</h5>
+            <p>Sed laborum omnis earum facere culpa optio natus quaerat minus.</p>
+          </div>
+        </div>
+        
+
+        
+        
+        <a href="#" class="btn btn-main-2">Purchase on amazon <i class="ti-angle-right ml-3"></i></a>
+        
+        
+      </div>
+
+      <div class="col-lg-6 col-md-6">
+        <div class="mt-5 mt-lg-0">
+          <img src="/images/about/ipad.jpg" alt="" class="img-fluid w-100">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="about section" id="author">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-5">
+        <div class="about-img">
+          <img src="/images/about/home-1.jpg" alt="Jarosław Pałka" class="img-fluid w-100">
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="author-info pl-4 mt-5 mt-lg-0">
+          <h2 class="text-lg">Jarosław Pałka</h2>
+          <p class="mb-4 lead">- A technical Writer</p>
+          <p>Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.</p>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+
+
+          
+          <img src="/images/about/2.png" alt="" class="img-fluid">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+<section class="section others-book" id="otherBooks">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="section-heading text-center">
+          <h2 class="text-lg">Others books by the author</h2>
+          <p>Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="book-item mb-4 mb-lg-0">
+          <img src="/images/about/b-1.jpg" alt="" class="img-fluid">
+          <a href="#" class="hover-item">
+            <i class="ti-link"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="book-item mb-4 mb-lg-0">
+          <img src="/images/about/b-2.jpg" alt="" class="img-fluid">
+          <a href="#" class="hover-item">
+            <i class="ti-link"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="book-item mb-4 mb-lg-0">
+          <img src="/images/about/b-3.jpg" alt="" class="img-fluid">
+          <a href="#" class="hover-item">
+            <i class="ti-link"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="book-item mb-4 mb-lg-0">
+          <img src="/images/about/b-4.jpg" alt="" class="img-fluid">
+          <a href="#" class="hover-item">
+            <i class="ti-link"></i>
+          </a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="section blog-home border-top" id="blog">
+  <div class="container">
+    
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="section-heading text-center">
+          <h2 class="text-lg mb-3">Our insights and articles</h2>
+          <p>Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      
+    </div>
+    <div class="text-center mt-5">
+      <a href="/blog" class="btn btn-main">All Post</a>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="section contact bg-grey" id="contact">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-8">
+        <div class="section-heading text-center">
+          <h2 class="mb-2 text-lg">Contact Us</h2>
+          <p>Whether you have questions or you would just like to say hello, contact us.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, atque!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      
+      <div class="col-lg-4 col-sm-6">
+        <div class="contact-info-block text-center mb-4">
+          <i class="ti-headphone-alt"></i>
+          <p class="mb-0">Contact Quickly</p>
+          
+          <h5>&#43;23-68017684</h5>
+          
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-sm-6">
+        <div class="contact-info-block text-center mb-4">
+          <i class="ti-email"></i>
+          <p class="mb-0">Email</p>
+          
+          <h5>startor@support.com</h5>
+          
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-sm-6">
+        <div class="contact-info-block text-center mb-4">
+          <i class="ti-location-pin"></i>
+          <p class="mb-0">Location</p>
+          
+          <h5>397 Lake forest drive street USA</h5>
+          
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-lg-6 col-sm-12 ">
+        <div class="footer-widget">
+          <a class="mb-4 d-inline-block" href="https://examplesite.com">
+            
+            <h2 class="mb-0 text-dark">Współbieżność w Java</h2>
+            
+          </a>
+          <p class="mb-4">Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap&rsquo;s creators.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="subscribe">
+          <h4 class="mb-4">Get up to 20% Discount</h4>
+          <input type="text" class="form-control mb-4" placeholder="Put your email address">
+          <a href="#" class="btn btn-main">Download Now<i class="ti-angle-right ml-3"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row footer-btm mt-5 pt-4 border-top">
+      <div class="col-lg-6">
+        
+        <p class="footer-copy">
+          Copyright © 2019 <a href="https://gethugothemes.com">GetHugoThemes</a> All Rights Reserved
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <div class="footer-btm-menu text-lg-right">
+          <img src="/images/about/cards-3.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- JS Plugins -->
+
+<script src="https://examplesite.com/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://examplesite.com/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://examplesite.com/plugins/slick/slick.min.js"></script>
+
+<script src="https://examplesite.com/plugins/magnific-popup/magnific-popup.min.js"></script>
+
+
+
+<script type="text/javascript" id="snipcart" src="https://cdn.snipcart.com/scripts/2.0/snipcart.js"
+  data-api-key="M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"></script>
+<script>
+  Snipcart.execute('registerLocale', 'en', {
+    powered_by: "Themefisher"
+  });
+</script>
+
+<!-- Main Script -->
+
+<script src="https://examplesite.com/js/script.min.js"></script>
+<!-- google analitycs -->
+</body>
+</html>
