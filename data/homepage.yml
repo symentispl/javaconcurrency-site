@@ -1,0 +1,245 @@
+########################## Banner #############################
+banner:
+  enable : true
+  writter : "Jarosław Pałka"
+  title : "Współbierzność w Java z wykorzystaniem \"concurrency primitives\""
+  image : "images/about/training.png"
+  content : "Jesteś programistą, a wątki i współbieżność budzą w Tobie a strach? Podczas tego szkolenia odpowiem na to pytanie. Poznasz bliżej \"concurrency primitives\" dostępne w Java SDK, czyli _pakiet java.util.concurrent_. Nauczysz się jak z podstawowych elementówm, takich jak: kolejki, blokady, czy bariery budować czytelne rozwiązania, jak analizować ich wydajność i jak je testować. "
+  price : "14.99"
+
+######################## Book Preview ##########################
+preview:
+  enable : true
+  pagePreview:
+    # page preview loop
+    - image : "images/about/book_page.png"
+    - image : "images/about/book_page2.png"
+    - image : "images/about/book_page.png"
+
+  title : "Współbieżność to nasza programistyczna codzienność. Czas ją ujarzmić"
+  content : "Gdy pojawia się potrzeba wykorzystania mocy wielu procesorów, sięgamy po rozwiązania operujące na wyższym poziomie abstrakcji, czyż nie? 
+Sięgamy po Akka, RxJava, Reactor. Czy tak musi być? Czy Java nie dostarcza mechanizmów pracy z wątkami i tworzenia wydajnego i czytelnego kodu współbieżnego?
+Podczas tego szkolenia odpowiem na to pytanie."
+
+  inside:
+    # book inside item loop
+    - insideItem : "Wprowadzenie do współbieżności"
+    - insideItem : "Java Memory Model"
+    - insideItem : "Kolejki, bariery, wątki, mechanizmy synchronizacji"
+    - insideItem : "Testowanie i poprawność naszego kodu"
+
+  # button
+  button:
+    enable : false
+    label : "Purchase on Amazon"
+    link : "#"
+
+
+########################## Service ##############################
+service:
+  enable : true
+  serviceItem:
+    # service item loop
+    - title : "Webinary"
+      icon : "ti-microphone" # themify icon pack : https://themify.me/themify-icons
+      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+      
+    # service item loop
+    - title : "Materiały szkoleniowe"
+      icon : "ti-rocket" # themify icon pack : https://themify.me/themify-icons
+      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+      
+    # service item loop
+    - title : "Prace z kodem"
+      icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
+      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+
+
+######################### Quote #############################
+quote:
+  enable : true
+  quote: "It's simply the best guide to making money online ever released which only a fool would ignore."
+  quoteBy: "John Smith"
+
+
+######################### Chapters ##########################
+chapters:
+  enable : true
+  title : "Tematy"
+  subtitle : "Libero atque veniam molestiae ipsa aliquid quam facilis dolore."
+  chapter:
+    # chapter preview loop
+    - title : "Czym jest współbieżność?"
+      content : "Budowa współczesnych proceserów, modele spójności i granice współbieżności"
+
+    # chapter preview loop
+    - title : "Zamki do drzwi i broń atomowa"
+      content : "Java Memory Model, mechanizmy synchronizacji, zmienne atomowe i lock free programming "
+      
+    # chapter preview loop
+    - title : "Kolejki rządzą światem"
+      content : "Kolejki w Java, bounded vs unbounded, blocking vs nonblocking. Poznajemy JCStress"
+
+    # chapter preview loop
+    - title : "Bariery, lasery i inne bajery"
+      content : "CountDownLatch, CyclicBarier, Semaphor i Phaser"
+      
+    # chapter preview loop
+    - title : "Pracownicy biurowi i czarna materia"
+      content : "Pule wątków, ForkJoin, ManagedBlock i CountedCompleter"
+      
+
+########################## Revews ###########################
+reviews:
+  enable : true
+  title : "What people are saying"
+  subtitle : "Amazing reviews illo tenetur laboriosam excepturi velit in, temporibus ab rem dicta sint obcaecati!"
+  review:
+    # review item loop
+    - name : "Barrow Hasi"
+      image : "images/client/test-1.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "five" # rating from one to five
+      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      
+    # review item loop
+    - name : "Nilam Arthur"
+      image : "images/client/test-2.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "four" # rating from one to five
+      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      
+    # review item loop
+    - name : "Barrow Hasi"
+      image : "images/client/test-1.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "five" # rating from one to five
+      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      
+    # review item loop
+    - name : "Nilam Arthur"
+      image : "images/client/test-2.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "four" # rating from one to five
+      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+
+
+#################################### device ################################
+devices:
+  enable : true
+  title : "Dla kogo to szkolenie?"
+  content : "Szkolenie przeznaczone jest dla osób, które mają już doświadczenie z Java 8 (choć samo szkolenie będzie wykorzystać Java 11). Znajomość tematów wątków i współbieżności nie jest wymagana."
+  image : "images/about/ipad.jpg"
+  feature:
+    # feature item loop
+    - title : "Spotykamy się raz w tygodniu"
+      icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
+      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+      
+    # feature item loop
+    - title : "Zadanie domowe"
+      icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
+      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+
+    # feature item loop
+    - title : "Dostęp do trenera"
+      icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
+      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+
+  # button
+  button:
+    enable : true
+    label : "Purchase on amazon"
+    link : "#"
+
+######################################## author #############################
+author:
+  enable : true
+  image : "images/about/home-1.jpg"
+  name : "Jarosław Pałka"
+  designation : "A technical Writer"
+  content : "
+  Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.
+
+
+  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+
+  # signature
+  signature : "images/about/2.png"
+
+
+################################ Awards #####################################
+awards:
+  enable : false
+  title : "We are award winner best selling book among the top rated 10 books!"
+  award:
+    # award item loop
+    - title : "International award"
+      image : "images/about/award-1.png"
+      
+    # award item loop
+    - title : "Meritorious award"
+      image : "images/about/award-2.png"
+      
+    # award item loop
+    - title : "Best book award"
+      image : "images/about/award-3.png"
+      
+    # award item loop
+    - title : "Excellence award"
+      image : "images/about/award-4.png"
+
+
+############################# Other books ###############################
+otherBooks:
+  enable : true
+  title : "Others books by the author"
+  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique
+            facere quas blanditiis."
+  book:
+    # books loop
+    - image : "images/about/b-1.jpg"
+      link : "#"
+      
+    # books loop
+    - image : "images/about/b-2.jpg"
+      link : "#"
+      
+    # books loop
+    - image : "images/about/b-3.jpg"
+      link : "#"
+      
+    # books loop
+    - image : "images/about/b-4.jpg"
+      link : "#"
+
+################################ Blog ###################################
+blog:
+  enable : true
+  title : "Our insights and articles"
+  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis."
+  # blog post comes from 'content/blog'
+
+################################# Contact ##############################
+contact:
+  enable : true
+  title : "Contact Us"
+  subtitle : "Whether you have questions or you would just like to say hello, contact us.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, atque!"
+  contactItem:
+    # contact Item loop
+    - title : "Contact Quickly"
+      icon : "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "+23-68017684"
+        
+    # contact Item loop
+    - title : "Email"
+      icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "startor@support.com"
+        
+    # contact Item loop
+    - title : "Location"
+      icon : "ti-location-pin" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "397 Lake forest drive street USA"

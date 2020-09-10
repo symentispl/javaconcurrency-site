@@ -1,0 +1,3 @@
+[submodule "themes/influencer"]
+	path = themes/influencer
+	url = https://github.com/themefisher/Influencer-hugo.git
