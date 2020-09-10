@@ -12,9 +12,7 @@ preview:
   enable : true
   pagePreview:
     # page preview loop
-    - image : "images/about/book_page.png"
-    - image : "images/about/book_page2.png"
-    - image : "images/about/book_page.png"
+    - image : "images/about/book_page.jpg"
 
   title : "Współbieżność to nasza programistyczna codzienność. Czas ją ujarzmić"
   content : "Gdy pojawia się potrzeba wykorzystania mocy wielu procesorów, sięgamy po rozwiązania operujące na wyższym poziomie abstrakcji, czyż nie? 
@@ -46,13 +44,13 @@ service:
       
     # service item loop
     - title : "Materiały szkoleniowe"
-      icon : "ti-rocket" # themify icon pack : https://themify.me/themify-icons
-      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+      icon : "ti-blackboard" # themify icon pack : https://themify.me/themify-icons
+      content : "Dostęp do materiałów szkoleniowych, nagrań video i dokumentacji."
       
     # service item loop
-    - title : "Prace z kodem"
-      icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
-      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+    - title : "Praca z kodem"
+      icon : "ti-mouse" # themify icon pack : https://themify.me/themify-icons
+      content : "Praca z kodem na GitHub pod czujnym okiem trenera."
 
 
 ######################### Quote #############################
@@ -66,11 +64,11 @@ quote:
 chapters:
   enable : true
   title : "Tematy"
-  subtitle : "Libero atque veniam molestiae ipsa aliquid quam facilis dolore."
+  subtitle : "Połączenie teorii z praktyką i ćwiczeniami. Jednym słowem pragmatyzm."
   chapter:
     # chapter preview loop
     - title : "Czym jest współbieżność?"
-      content : "Budowa współczesnych proceserów, modele spójności i granice współbieżności"
+      content : "Budowa współczesnych procesorów, modele spójności i granice współbieżności"
 
     # chapter preview loop
     - title : "Zamki do drzwi i broń atomowa"
@@ -134,17 +132,17 @@ devices:
     # feature item loop
     - title : "Spotykamy się raz w tygodniu"
       icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
-      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+      content : "Spotykamy się raz w tygodniu podczas webinaru."
       
     # feature item loop
     - title : "Zadanie domowe"
       icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
-      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+      content : "Zadania domowe realizowane są na GitHub jako pull requesty."
 
     # feature item loop
     - title : "Dostęp do trenera"
       icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
-      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+      content : "Jarek jest cały czas dostępny na kanale na Slack by odpowiedzieć na Twoje pytania."
 
   # button
   button:
@@ -155,17 +153,15 @@ devices:
 ######################################## author #############################
 author:
   enable : true
-  image : "images/about/home-1.jpg"
+  image : "images/about/jarek.jpg"
   name : "Jarosław Pałka"
-  designation : "A technical Writer"
+  designation : "Programista/Architekt/Współzałożyciel Segfault"
   content : "
-  Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.
-
-
-  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+  Programista Java od ponad 20 lat. Uzależniony od wystąpień publicznych i działania w społecznośći IT w Polsce.
+  Zawrócił z ścieżki kierownika zespołu i architekta, by oddać swoją karierę w ręce JVM, grafów, wydajności i pogoni za kolejnymi milisekundami z Neo4j."
 
   # signature
-  signature : "images/about/2.png"
+  signature : ""
 
 
 ################################ Awards #####################################
@@ -193,25 +189,24 @@ awards:
 ############################# Other books ###############################
 otherBooks:
   enable : true
-  title : "Others books by the author"
-  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique
-            facere quas blanditiis."
+  title : "Prezentacje"
+  subtitle : "Poznaj Jarka bliżej, czyli kilka opowieści o JVM, systemach operacyjnych i wydajności"
   book:
     # books loop
-    - image : "images/about/b-1.jpg"
-      link : "#"
+    - image : "http://i3.ytimg.com/vi/g6yUSonoM44/hqdefault.jpg"
+      link : "https://www.youtube.com/watch?v=g6yUSonoM44"
       
     # books loop
-    - image : "images/about/b-2.jpg"
-      link : "#"
+    - image : "http://i3.ytimg.com/vi/bJAg_23ixmY/hqdefault.jpg"
+      link : "https://www.youtube.com/watch?v=bJAg_23ixmY"
       
     # books loop
-    - image : "images/about/b-3.jpg"
-      link : "#"
+    - image : "http://i3.ytimg.com/vi/-ccFyYRYvBg/hqdefault.jpg"
+      link : "https://www.youtube.com/watch?v=-ccFyYRYvBg"
       
     # books loop
-    - image : "images/about/b-4.jpg"
-      link : "#"
+    - image : "http://i3.ytimg.com/vi/Ag9mBOjSeb8/hqdefault.jpg"
+      link : "https://www.youtube.com/watch?v=Ag9mBOjSeb8"
 
 ################################ Blog ###################################
 blog:
@@ -223,20 +218,20 @@ blog:
 ################################# Contact ##############################
 contact:
   enable : true
-  title : "Contact Us"
-  subtitle : "Whether you have questions or you would just like to say hello, contact us.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, atque!"
+  title : "Kontakt"
+  subtitle : "Zapraszamy do kontaktu z nami. Chętnie odpowiemy na wszystkie pytania."
   contactItem:
     # contact Item loop
-    - title : "Contact Quickly"
+    - title : "Telefon"
       icon : "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "+23-68017684"
+        - listItem : "603 886 892"
         
     # contact Item loop
     - title : "Email"
       icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "startor@support.com"
+        - listItem : "jaroslaw.palka@symentis.pl"
         
     # contact Item loop
     - title : "Location"

@@ -34,22 +34,22 @@ paginate = 6
 [menu]
     
   [[menu.main]]
-  name = "About"
+  name = "O szkoleniu"
   URL = "book"
   weight = 1
   
   [[menu.main]]
-  name = "Chapter"
+  name = "Tematy"
   URL = "chapter"
   weight = 2
   
   [[menu.main]]
-  name = "Reviews"
+  name = "Opinie"
   URL = "review"
   weight = 3
   
   [[menu.main]]
-  name = "Author"
+  name = "Trener"
   URL = "author"
   weight = 4
   
@@ -59,7 +59,7 @@ paginate = 6
   weight = 5
   
   [[menu.main]]
-  name = "Contact"
+  name = "Kontakt"
   URL = "contact"
   weight = 6
 
