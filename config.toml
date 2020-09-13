@@ -66,13 +66,13 @@ paginate = 6
 
 #################### default parameters ################################
 [params]
-logo = ""
+logo = "http://symentis.pl/wp-content/uploads/2017/06/symentis-logo.png"
 home = "Home"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
 # Google Analitycs
-googleAnalitycsID = "" # Your ID
+googleAnalitycsID = "UA-35040931-2" # Your ID
 # copyright
 copyright = "Copyright &copy; 2019 [GetHugoThemes](https://gethugothemes.com) All Rights Reserved"
 
