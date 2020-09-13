@@ -40,7 +40,7 @@ service:
     # service item loop
     - title : "Webinary"
       icon : "ti-microphone" # themify icon pack : https://themify.me/themify-icons
-      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+      content : "Spotykamy się raz w tygodniu podczas webinaru na żywo"
       
     # service item loop
     - title : "Materiały szkoleniowe"
@@ -56,8 +56,8 @@ service:
 ######################### Quote #############################
 quote:
   enable : true
-  quote: "It's simply the best guide to making money online ever released which only a fool would ignore."
-  quoteBy: "John Smith"
+  quote: "Nie ulega wątpliwości, że nabyłem pewnej wprawy w produkcji kodu thread-safe w javie, znam prymitywy concurrency i różnice między nimi - to wiem gdzie i jak zastosować"
+  quoteBy: "Uczestnik szkolenia"
 
 
 ######################### Chapters ##########################
@@ -89,7 +89,7 @@ chapters:
 
 ########################## Revews ###########################
 reviews:
-  enable : true
+  enable : false
   title : "What people are saying"
   subtitle : "Amazing reviews illo tenetur laboriosam excepturi velit in, temporibus ab rem dicta sint obcaecati!"
   review:
@@ -210,7 +210,7 @@ otherBooks:
 
 ################################ Blog ###################################
 blog:
-  enable : true
+  enable : false
   title : "Our insights and articles"
   subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis."
   # blog post comes from 'content/blog'
