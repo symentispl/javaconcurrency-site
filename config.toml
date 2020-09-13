@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://symentispl.github.io/javaconcurrency-site/"
+baseURL = "https://javaconcurrency.symentis.pl/"
 languageCode = "en-us"
 title = "Współbieżność w Java"
 theme = "influencer"
