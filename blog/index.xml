@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Współbieżność w Java</title>
-    <link>https://symentispl.github.io/javaconcurrency-site/blog/</link>
+    <link>https://javaconcurrency.symentis.pl/blog/</link>
     <description>Recent content in Blog on Współbieżność w Java</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Nov 2019 15:28:43 +0600</lastBuildDate>
     
-	<atom:link href="https://symentispl.github.io/javaconcurrency-site/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://javaconcurrency.symentis.pl/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Lock downgrading z wykorzystaniem ReentrantLock</title>
-      <link>https://symentispl.github.io/javaconcurrency-site/blog/lock-downgrading/</link>
+      <link>https://javaconcurrency.symentis.pl/blog/lock-downgrading/</link>
       <pubDate>Sat, 23 Nov 2019 15:28:43 +0600</pubDate>
       
-      <guid>https://symentispl.github.io/javaconcurrency-site/blog/lock-downgrading/</guid>
+      <guid>https://javaconcurrency.symentis.pl/blog/lock-downgrading/</guid>
       <description>Cos</description>
     </item>
     

@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Współbieżność w Java</title>
-    <link>https://symentispl.github.io/javaconcurrency-site/tags/</link>
+    <link>https://javaconcurrency.symentis.pl/tags/</link>
     <description>Recent content in Tags on Współbieżność w Java</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://symentispl.github.io/javaconcurrency-site/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://javaconcurrency.symentis.pl/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
