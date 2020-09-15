@@ -2,9 +2,9 @@
 banner:
   enable : true
   writter : "Jarosław Pałka"
-  title : "Współbierzność w Java z wykorzystaniem \"concurrency primitives\""
+  title : "Współbieżność w Java z wykorzystaniem \"concurrency primitives\""
   image : "images/about/training.png"
-  content : "Jesteś programistą, a wątki i współbieżność budzą w Tobie a strach? Podczas tego szkolenia odpowiem na to pytanie. Poznasz bliżej \"concurrency primitives\" dostępne w Java SDK, czyli _pakiet java.util.concurrent_. Nauczysz się jak z podstawowych elementówm, takich jak: kolejki, blokady, czy bariery budować czytelne rozwiązania, jak analizować ich wydajność i jak je testować. "
+  content : "Jesteś programistą  - super! Wątki i współbieżność budzą w Tobie  strach? Mam dla Ciebie szkolenie, które na zawsze pozwoli Ci się pozbyć takich obaw i lęków. Podczas tego szkolenia poznasz bliżej “concurrency primitives” dostępne w Java SDK, czyli pakiet _java.util.concurrent_. Nauczysz się jak z podstawowych elementów, takich jak: kolejki, blokady, czy bariery budować czytelne rozwiązania, jak analizować ich wydajność i jak je testować"
   price : "14.99"
 
 ######################## Book Preview ##########################
@@ -14,10 +14,8 @@ preview:
     # page preview loop
     - image : "images/about/book_page.jpg"
 
-  title : "Współbieżność to nasza programistyczna codzienność. Czas ją ujarzmić"
-  content : "Gdy pojawia się potrzeba wykorzystania mocy wielu procesorów, sięgamy po rozwiązania operujące na wyższym poziomie abstrakcji, czyż nie? 
-Sięgamy po Akka, RxJava, Reactor. Czy tak musi być? Czy Java nie dostarcza mechanizmów pracy z wątkami i tworzenia wydajnego i czytelnego kodu współbieżnego?
-Podczas tego szkolenia odpowiem na to pytanie."
+  title : "Współbieżność to nasza programistyczna codzienność. Czas ją ujarzmić!"
+  content : "Gdy pojawia się potrzeba wykorzystania mocy wielu procesorów, sięgamy po rozwiązania operujące na wyższym poziomie abstrakcji, czyż nie? Sięgamy po Akka, RxJava, Reactor. Czy tak musi być? Czy Java nie dostarcza mechanizmów pracy z wątkami i tworzenia wydajnego i czytelnego kodu współbieżnego? Podczas tego szkolenia odpowiem na te pytania i inneh pytania. Zdobędziesz niezbędną wiedzę z zakresu tworzenia bezpiecznego, współbieżnego kodu."
 
   inside:
     # book inside item loop
@@ -40,12 +38,12 @@ service:
     # service item loop
     - title : "Webinary"
       icon : "ti-microphone" # themify icon pack : https://themify.me/themify-icons
-      content : "Spotykamy się raz w tygodniu podczas webinaru na żywo"
+      content : "Spotykamy się raz w tygodniu podczas interaktywnego webinaru na żywo."
       
     # service item loop
     - title : "Materiały szkoleniowe"
       icon : "ti-blackboard" # themify icon pack : https://themify.me/themify-icons
-      content : "Dostęp do materiałów szkoleniowych, nagrań video i dokumentacji."
+      content : "Dostęp do materiałów szkoleniowych, nagrań video i dokumentacji? Są Twoje!"
       
     # service item loop
     - title : "Praca z kodem"
@@ -64,7 +62,7 @@ quote:
 chapters:
   enable : true
   title : "Tematy"
-  subtitle : "Połączenie teorii z praktyką i ćwiczeniami. Jednym słowem pragmatyzm."
+  subtitle : "Połączenie teorii z praktyką i ćwiczeniami. Jednym słowem *pragmatyzm*."
   chapter:
     # chapter preview loop
     - title : "Czym jest współbieżność?"
@@ -85,6 +83,9 @@ chapters:
     # chapter preview loop
     - title : "Pracownicy biurowi i czarna materia"
       content : "Pule wątków, ForkJoin, ManagedBlock i CountedCompleter"
+
+    - title: "Co się wydarzyło w Las Vegas?"
+      content: "_happens-before_, _sequential consistency_ i innej zagadki"
       
 
 ########################## Revews ###########################
@@ -126,7 +127,8 @@ reviews:
 devices:
   enable : true
   title : "Dla kogo to szkolenie?"
-  content : "Szkolenie przeznaczone jest dla osób, które mają już doświadczenie z Java 8 (choć samo szkolenie będzie wykorzystać Java 11). Znajomość tematów wątków i współbieżności nie jest wymagana."
+  content : "Java 8 nie kryje przed Tobą żadnych tajemnic? To szkolenie jest dla Ciebie!
+Podczas szkolenia będziemy wykorzystywać Java 11. Znajomość tematów wątków i współbieżności nie jest wymagana."
   image : "images/about/ipad.jpg"
   feature:
     # feature item loop
@@ -137,12 +139,12 @@ devices:
     # feature item loop
     - title : "Zadanie domowe"
       icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
-      content : "Zadania domowe realizowane są na GitHub jako pull requesty."
+      content : "Co tydzień otrzymasz ode mnie zadanie domowe. Wykonasz je GitHub jako pull requesty."
 
     # feature item loop
     - title : "Dostęp do trenera"
       icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
-      content : "Jarek jest cały czas dostępny na kanale na Slack by odpowiedzieć na Twoje pytania."
+      content : "Przez cały czas trwania szkolenia będę dla Ciebie dostępny na kanale na Slack. Odpowiem na Twoje pytania, pomogę w kolejnych zadaniach."
 
   # button
   button:
@@ -157,8 +159,9 @@ author:
   name : "Jarosław Pałka"
   designation : "Programista/Architekt/Współzałożyciel Segfault"
   content : "
-  Programista Java od ponad 20 lat. Uzależniony od wystąpień publicznych i działania w społecznośći IT w Polsce.
-  Zawrócił z ścieżki kierownika zespołu i architekta, by oddać swoją karierę w ręce JVM, grafów, wydajności i pogoni za kolejnymi milisekundami z Neo4j."
+  Programista Java od ponad 20 lat. Uzależniony od wystąpień publicznych i działania w społeczności IT w Polsce. 
+  Zawrócił z ścieżki kierownika zespołu i architekta, by oddać swoją karierę w ręce JVM, grafów, wydajności 
+  i pogoni za kolejnymi milisekundami z Neo4j. Współzałożyciel i członek Rady Programowej Segfault."
 
   # signature
   signature : ""
@@ -190,7 +193,7 @@ awards:
 otherBooks:
   enable : true
   title : "Prezentacje"
-  subtitle : "Poznaj Jarka bliżej, czyli kilka opowieści o JVM, systemach operacyjnych i wydajności"
+  subtitle : "Poznajmy się! Mam dla Ciebie kilka opowieści o JVM, systemach operacyjnych i wydajności..."
   book:
     # books loop
     - image : "http://i3.ytimg.com/vi/g6yUSonoM44/hqdefault.jpg"
@@ -219,7 +222,7 @@ blog:
 contact:
   enable : true
   title : "Kontakt"
-  subtitle : "Zapraszamy do kontaktu z nami. Chętnie odpowiemy na wszystkie pytania."
+  subtitle : "Zapraszamy do kontaktu. Chętnie odpowiemy na wszystkie pytania."
   contactItem:
     # contact Item loop
     - title : "Telefon"
