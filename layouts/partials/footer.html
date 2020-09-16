@@ -46,6 +46,8 @@
 <script src="{{ .URL | absURL }}"></script>
 {{ end }}
 
+<script src="https://www.googleoptimize.com/optimize.js?id=OPT-P2PZZ7G"></script>
+
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
