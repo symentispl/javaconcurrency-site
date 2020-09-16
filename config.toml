@@ -66,7 +66,7 @@ paginate = 6
 
 #################### default parameters ################################
 [params]
-logo = "http://symentis.pl/wp-content/uploads/2017/06/symentis-logo.png"
+logo = "https://symentis.pl/wp-content/uploads/2017/06/symentis-logo.png"
 home = "Home"
 # Meta data
 description = "This is meta description"
@@ -88,7 +88,7 @@ copyright = "Copyright &copy; 2019 [GetHugoThemes](https://gethugothemes.com) Al
   
 ############################# Footer ########################
 [params.footer]
-content = "Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+content = "Symentis to nie tylko firma dostarczająca szkoleń i usług konsultacyjnych w obszarze rozwoju oprogramowania, architektury systemów IT i rozwoju organizacji (w szczególności działów R&D). Symentis to przede wszystkim grupa profesjonalistów, z wieloletnim doświadczeniem w branży rozwoju oprogramowania, którzy swoje doświadczenie mogą potwierdzić nie tylko poprzez udział w międzynarodowych projektach, ale także poprzez udział w projektach „open source”, a także jako aktywni członkowie lokalnych społeczności programistów, organizujących i biorących udział w konferencjach, członkowie rad programowych i prezenterzy."
 
 
 ############################# post share ###################

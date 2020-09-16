@@ -234,10 +234,10 @@ contact:
     - title : "Email"
       icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "jaroslaw.palka@symentis.pl"
+        - listItem : "szkolenia@symentis.pl"
         
     # contact Item loop
-    - title : "Location"
+    - title : "Konferencje i szkolenia"
       icon : "ti-location-pin" # themify icon pack : https://themify.me/themify-icons
       list:
-        - listItem : "397 Lake forest drive street USA"
+        - listItem : "[Segfault](http://segfault.events)"
