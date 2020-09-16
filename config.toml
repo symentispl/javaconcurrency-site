@@ -69,7 +69,7 @@ paginate = 6
 logo = "https://symentis.pl/wp-content/uploads/2017/06/symentis-logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "Szkolenie Java concurrency primitives, Java memory model i java.util.concurrent w praktyce."
 author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "UA-35040931-2" # Your ID
