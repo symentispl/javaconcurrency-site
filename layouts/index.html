@@ -41,7 +41,6 @@
     <div class="row">
       <div class="col-lg-5">
         <div class="book-preview">
-          <img src="{{`images/about/kindle.png` | relURL}}" class="background-device img-fluid" alt="device">
           <div class="book-pages">
             {{ range .pagePreview }}
             <div class="item">
@@ -373,7 +372,7 @@
           <i class="{{ .icon }}"></i>
           <p class="mb-0">{{ .title | markdownify }}</p>
           {{ range .list }}
-          <h5>{{ .listItem }}</h5>
+          <h5>{{ .listItem | markdownify}}</h5>
           {{ end }}
         </div>
       </div>
