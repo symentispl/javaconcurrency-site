@@ -27,6 +27,10 @@
   <div class="container">
     <div class="row footer-btm mt-5 pt-4 border-top">
       <div class="col-lg-6">
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <div class="addthis_inline_share_toolbox"></div>    
+      </div>
+      <div class="col-lg-6">
         <!-- Copyright -->
         <p class="footer-copy">
           {{ .Site.Params.copyright | markdownify }}
@@ -47,6 +51,9 @@
 {{ end }}
 
 <script src="https://www.googleoptimize.com/optimize.js?id=OPT-P2PZZ7G"></script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools --> 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5f62777a23e9b1db"></script> 
 
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
