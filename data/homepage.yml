@@ -149,8 +149,8 @@ Podczas szkolenia będziemy wykorzystywać Java 11. Znajomość tematów wątkó
   # button
   button:
     enable : true
-    label : "Purchase on amazon"
-    link : "#"
+    label : "Kup teraz"
+    link : "https://2020-java-concurrency-primitives-nov.konfeo.com/pl/groups"
 
 ######################################## author #############################
 author:
