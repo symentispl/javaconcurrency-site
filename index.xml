@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Współbieżność w Java</title>
+    <title>Współbieżność w Javie</title>
     <link>https://javaconcurrency.symentis.pl/</link>
-    <description>Recent content on Współbieżność w Java</description>
+    <description>Recent content on Współbieżność w Javie</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 23 Nov 2019 15:28:43 +0600</lastBuildDate>
