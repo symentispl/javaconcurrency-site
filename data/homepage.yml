@@ -4,7 +4,7 @@ banner:
   writter : "Jarosław Pałka"
   title : "Współbieżność w Javie z wykorzystaniem \"concurrency primitives\""
   image : "images/about/training.png"
-  content : "Jesteś programistą  - super! Wątki i współbieżność budzą w Tobie  strach? Mam dla Ciebie szkolenie, które na zawsze pozwoli Ci się pozbyć takich obaw i lęków. Podczas tego szkolenia poznasz bliżej “concurrency primitives” dostępne w Java SDK, czyli pakiet _java.util.concurrent_. Nauczysz się jak z podstawowych elementów, takich jak: kolejki, blokady, czy bariery budować czytelne rozwiązania, jak analizować ich wydajność i jak je testować"
+  content : "Jesteś programistą  - super! Wątki i współbieżność budzą w Tobie strach? Mam dla Ciebie weekendowe szkolenie, które na zawsze pozwoli Ci się pozbyć takich obaw i lęków. Podczas pięciu sobotnich spotkań poznasz bliżej “concurrency primitives” dostępne w Java SDK, czyli pakiet _java.util.concurrent_. Dzięki zadaniom domowym, którym poświęcisz 2-3 godzin w tygodniu, nauczysz się jak z podstawowych elementów, takich jak: kolejki, blokady, czy bariery budować czytelne rozwiązania, jak analizować ich wydajność i jak je testować"
   price : "14.99"
 
 ######################## Book Preview ##########################
@@ -15,14 +15,13 @@ preview:
     - image : "images/about/book_page.jpg"
 
   title : "Współbieżność to nasza programistyczna codzienność. Czas ją ujarzmić!"
-  content : "Gdy pojawia się potrzeba wykorzystania mocy wielu procesorów, sięgamy po rozwiązania operujące na wyższym poziomie abstrakcji, czyż nie? Sięgamy po Akka, RxJava, Reactor. Czy tak musi być? Czy Java nie dostarcza mechanizmów pracy z wątkami i tworzenia wydajnego i czytelnego kodu współbieżnego? Podczas tego szkolenia odpowiem na te pytania i inneh pytania. Zdobędziesz niezbędną wiedzę z zakresu tworzenia bezpiecznego, współbieżnego kodu."
+  content : "Dlaczego to szkolenie jest dla Ciebie? Wydajność i optymalizacja brzmią dobrze, ale to szkolenie da Ci znacznie więcej."
 
   inside:
     # book inside item loop
-    - insideItem : "Wprowadzenie do współbieżności"
-    - insideItem : "Java Memory Model"
-    - insideItem : "Kolejki, bariery, wątki, mechanizmy synchronizacji"
-    - insideItem : "Testowanie i poprawność naszego kodu"
+    - insideItem : "Będziesz dostarczać stabilniejsze rozwiązania i... będziesz je dostarczać szybciej."
+    - insideItem : "Wreszcie wykorzystasz możliwości sprzętu."
+    - insideItem : "Ujarzmisz najnowsze funkcjonalności Javy z zakresu programowania współbieżnego."
 
   # button
   button:
@@ -129,7 +128,7 @@ devices:
   title : "Dla kogo to szkolenie?"
   content : "Java 8 nie kryje przed Tobą żadnych tajemnic? To szkolenie jest dla Ciebie!
 Podczas szkolenia będziemy wykorzystywać Java 11. Znajomość tematów wątków i współbieżności nie jest wymagana."
-  image : "images/about/ipad.jpg"
+  image : "images/about/code.png"
   feature:
     # feature item loop
     - title : "Spotykamy się raz w tygodniu"
