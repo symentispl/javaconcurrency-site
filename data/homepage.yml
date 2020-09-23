@@ -4,7 +4,7 @@ banner:
   writter : "Jarosław Pałka"
   title : "Współbieżność w Javie z wykorzystaniem \"concurrency primitives\""
   image : "images/about/training.png"
-  content : "Jesteś programistą  - super! Wątki i współbieżność budzą w Tobie strach? Mam dla Ciebie weekendowe szkolenie, które na zawsze pozwoli Ci się pozbyć takich obaw i lęków. Podczas pięciu sobotnich spotkań poznasz bliżej “concurrency primitives” dostępne w Java SDK, czyli pakiet _java.util.concurrent_. Dzięki zadaniom domowym, którym poświęcisz 2-3 godzin w tygodniu, nauczysz się jak z podstawowych elementów, takich jak: kolejki, blokady, czy bariery budować czytelne rozwiązania, jak analizować ich wydajność i jak je testować"
+  content : "Jesteś początkująym programistą  - super! Wątki i współbieżność budzą w Tobie strach? Mam dla Ciebie weekendowy kurs online, który na zawsze pozwoli Ci się pozbyć takich obaw i lęków. Podczas pięciu sobotnich spotkań poznasz bliżej “concurrency primitives” dostępne w Java SDK, czyli pakiet _java.util.concurrent_. Dzięki zadaniom domowym, którym poświęcisz 2-3 godzin w tygodniu, nauczysz się jak z podstawowych elementów, takich jak: kolejki, blokady, czy bariery budować czytelne rozwiązania, jak analizować ich wydajność i jak je testować"
   price : "14.99"
 
 ######################## Book Preview ##########################
@@ -15,7 +15,7 @@ preview:
     - image : "images/about/book_page.jpg"
 
   title : "Współbieżność to nasza programistyczna codzienność. Czas ją ujarzmić!"
-  content : "Dlaczego to szkolenie jest dla Ciebie? Wydajność i optymalizacja brzmią dobrze, ale to szkolenie da Ci znacznie więcej."
+  content : "Dlaczego ten kurs online jest dla Ciebie? Wydajność i optymalizacja brzmią dobrze, ale to szkolenie da Ci znacznie więcej."
 
   inside:
     # book inside item loop

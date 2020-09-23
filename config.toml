@@ -70,7 +70,7 @@ enableRobotsTXT = true
 logo = "https://symentis.pl/wp-content/uploads/2017/06/symentis-logo.png"
 home = "Home"
 # Meta data
-description = "Szkolenie Java concurrency primitives, Java memory model i java.util.concurrent w praktyce."
+description = "Szkolenie Java concurrency primitives, Java memory model i java.util.concurrent w praktyce.Kurs online dla początkujących."
 author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "UA-35040931-2" # Your ID
