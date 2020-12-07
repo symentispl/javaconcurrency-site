@@ -3,26 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://javaconcurrency.symentis.pl/blog/</loc>
+    <loc>https://javaconcurrency.pl/blog/</loc>
     <lastmod>2019-11-23T15:28:43+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://javaconcurrency.symentis.pl/blog/lock-downgrading/</loc>
+    <loc>https://javaconcurrency.pl/blog/lock-downgrading/</loc>
     <lastmod>2019-11-23T15:28:43+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://javaconcurrency.symentis.pl/</loc>
+    <loc>https://javaconcurrency.pl/</loc>
     <lastmod>2019-11-23T15:28:43+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://javaconcurrency.symentis.pl/categories/</loc>
+    <loc>https://javaconcurrency.pl/categories/</loc>
   </url>
   
   <url>
-    <loc>https://javaconcurrency.symentis.pl/tags/</loc>
+    <loc>https://javaconcurrency.pl/tags/</loc>
   </url>
   
 </urlset>
