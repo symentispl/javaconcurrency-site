@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://javaconcurrency.symentis.pl/"
+baseURL = "https://javaconcurrency.pl/"
 languageCode = "pl"
 title = "Współbieżność w Javie"
 theme = "influencer"
